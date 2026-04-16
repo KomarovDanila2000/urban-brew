@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Urban Brew — редактор контента</title>
+  <meta name="theme-color" content="#0f0d0c" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div class="page-shell admin-shell">
+    <header class="site-header">
+      <div class="container header-row">
+        <a href="index.html" class="brand">Urban Brew</a>
+        <nav class="site-nav static-nav">
+          <a href="index.html">На сайт</a>
+          <a href="#editor">Редактор</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="section" id="editor">
+      <div class="container admin-layout">
+        <div class="admin-intro reveal in-view">
+          <p class="eyebrow">Редактор контента</p>
+          <h1 class="admin-title">Измени текст, цены и ссылки, затем скачай новый site.json</h1>
+          <p class="section-text">GitHub Pages не умеет сохранять изменения на сервере. Этот редактор помогает обновить данные и скачать новый файл <strong>site.json</strong>, который потом нужно заменить в папке <strong>content</strong> в репозитории.</p>
+          <div class="hero-actions">
+            <button class="btn btn-gold" id="downloadJson">Скачать site.json</button>
+            <button class="btn btn-outline" id="resetForm">Сбросить</button>
+          </div>
+        </div>
+
+        <form class="admin-form reveal in-view" id="adminForm">
+          <section class="admin-section">
+            <h2>Основная информация</h2>
+            <div class="form-grid">
+              <label>Название бренда<input name="site.brand" /></label>
+              <label>Телефон<input name="site.phone" /></label>
+              <label>Email<input name="site.email" /></label>
+              <label>Адрес<input name="site.address" /></label>
+              <label>Часы работы<input name="site.hours" /></label>
+              <label>Ссылка на карту<input name="site.mapUrl" /></label>
+              <label>Instagram<input name="site.instagram" /></label>
+              <label>Telegram<input name="site.telegram" /></label>
+              <label>WhatsApp<input name="site.whatsapp" /></label>
+            </div>
+          </section>
+
+          <section class="admin-section">
+            <h2>Первый экран</h2>
+            <div class="form-grid">
+              <label>Надпись сверху<input name="hero.eyebrow" /></label>
+              <label>Заголовок<textarea name="hero.title" rows="3"></textarea></label>
+              <label>Описание<textarea name="hero.description" rows="4"></textarea></label>
+              <label>Кнопка 1 — текст<input name="hero.primaryCtaText" /></label>
+              <label>Кнопка 1 — ссылка<input name="hero.primaryCtaLink" /></label>
+              <label>Кнопка 2 — текст<input name="hero.secondaryCtaText" /></label>
+              <label>Кнопка 2 — ссылка<input name="hero.secondaryCtaLink" /></label>
+              <label>Фото первого экрана<input name="hero.heroImage" /></label>
+            </div>
+          </section>
+
+          <section class="admin-section">
+            <h2>Меню, акции, отзывы и фото</h2>
+            <label>Статистика на первом экране — JSON-массив<textarea name="hero.stats" rows="8"></textarea></label>
+            <label>Бизнес‑слайдер сверху — JSON-массив объектов<textarea name="businessCoffeeSlides" rows="12"></textarea></label>
+            <label>Блок “О нас” — JSON-объект<textarea name="about" rows="14"></textarea></label>
+            <label>Меню — JSON-объект<textarea name="menu" rows="20"></textarea></label>
+            <label>Акция — JSON-объект<textarea name="promo" rows="10"></textarea></label>
+            <label>Сезонные предложения — JSON-объект<textarea name="specials" rows="14"></textarea></label>
+            <label>Галерея — JSON-объект<textarea name="gallery" rows="14"></textarea></label>
+            <label>Отзывы — JSON-объект<textarea name="reviews" rows="14"></textarea></label>
+          </section>
+        </form>
+      </div>
+    </main>
+  </div>
+
+  <script src="assets/js/admin.js"></script>
+</body>
+</html>
