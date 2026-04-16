@@ -1,0 +1,167 @@
+{
+  "site": {
+    "brand": "Urban Brew",
+    "hero_badge": "Signature Coffee House",
+    "hero_title": "Темп города. Вкус тишины. Кофе с характером.",
+    "hero_text": "Urban Brew — современная кофейня в тёмной эстетике premium lifestyle: авторские напитки, мягкий свет, красивая подача и пространство, в которое хочется возвращаться.",
+    "hero_image": "assets/images/placeholders/hero.svg",
+    "cta_primary_text": "Посмотреть меню",
+    "cta_primary_link": "#menu",
+    "cta_secondary_text": "Забронировать столик",
+    "cta_secondary_link": "#contacts",
+    "address": "Brīvības 21, Riga",
+    "phone": "+371 20 123 456",
+    "email": "hello@urbanbrew.lv",
+    "hours": "Пн–Вс, 08:00–21:00",
+    "instagram": "https://instagram.com/",
+    "telegram": "https://t.me/",
+    "map_embed": "https://www.google.com/maps?q=Brivibas%2021%20Riga&output=embed",
+    "marquee_speed": "28"
+  },
+  "features": [
+    {
+      "number": "01",
+      "title": "Свежая обжарка",
+      "text": "Чёткий вкус, стабильное качество и внимание к каждой детали в чашке."
+    },
+    {
+      "number": "02",
+      "title": "Авторская подача",
+      "text": "Напитки и десерты, в которых важен не только вкус, но и визуальный ритуал."
+    },
+    {
+      "number": "03",
+      "title": "Атмосфера места",
+      "text": "Тёплый свет, премиальные фактуры и ощущение уединённого городского пространства."
+    }
+  ],
+  "ticker": [
+    {
+      "title": "Signature espresso",
+      "image": "assets/images/placeholders/ticker-1.svg"
+    },
+    {
+      "title": "Авторский латте",
+      "image": "assets/images/placeholders/ticker-2.svg"
+    },
+    {
+      "title": "Десерты ручной работы",
+      "image": "assets/images/placeholders/ticker-3.svg"
+    },
+    {
+      "title": "Интерьер Urban Brew",
+      "image": "assets/images/placeholders/ticker-4.svg"
+    },
+    {
+      "title": "Бариста и процесс",
+      "image": "assets/images/placeholders/ticker-5.svg"
+    }
+  ],
+  "menu": [
+    {
+      "category": "Coffee",
+      "title": "Espresso",
+      "price": "€2.50",
+      "label": "Classic",
+      "description": "Яркий вкус, плотное тело и чистое послевкусие.",
+      "image": "assets/images/placeholders/menu-1.svg"
+    },
+    {
+      "category": "Coffee",
+      "title": "Flat White",
+      "price": "€4.20",
+      "label": "Best Seller",
+      "description": "Бархатная текстура молока и насыщенный кофейный профиль.",
+      "image": "assets/images/placeholders/menu-2.svg"
+    },
+    {
+      "category": "Signature",
+      "title": "Vanilla Brew",
+      "price": "€5.20",
+      "label": "Signature",
+      "description": "Мягкий авторский напиток с ванильными нотами.",
+      "image": "assets/images/placeholders/menu-3.svg"
+    },
+    {
+      "category": "Signature",
+      "title": "Pistachio Cream Brew",
+      "price": "€5.90",
+      "label": "Limited",
+      "description": "Нежный фисташковый профиль с кремовой текстурой.",
+      "image": "assets/images/placeholders/menu-4.svg"
+    },
+    {
+      "category": "Dessert",
+      "title": "Basque Cheesecake",
+      "price": "€4.90",
+      "label": "Dessert",
+      "description": "Кремовая текстура и насыщенный сливочный вкус.",
+      "image": "assets/images/placeholders/menu-5.svg"
+    },
+    {
+      "category": "Dessert",
+      "title": "Almond Croissant",
+      "price": "€3.80",
+      "label": "Morning",
+      "description": "Хрустящий круассан с деликатной миндальной начинкой.",
+      "image": "assets/images/placeholders/menu-6.svg"
+    }
+  ],
+  "promotions": [
+    {
+      "badge": "New",
+      "title": "Maple Cinnamon Latte",
+      "text": "Тёплый, мягкий, пряный напиток с благородной сладостью."
+    },
+    {
+      "badge": "Popular",
+      "title": "Iced Coconut Coffee",
+      "text": "Холодный кофе с кокосовым акцентом и чистым послевкусием."
+    },
+    {
+      "badge": "Limited",
+      "title": "Pistachio Cream Brew",
+      "text": "Нежный фисташковый профиль с кремовой текстурой и выразительным характером."
+    }
+  ],
+  "gallery": [
+    {
+      "title": "Кофейная подача",
+      "image": "assets/images/placeholders/gallery-1.svg"
+    },
+    {
+      "title": "Бариста за работой",
+      "image": "assets/images/placeholders/gallery-2.svg"
+    },
+    {
+      "title": "Интерьер",
+      "image": "assets/images/placeholders/gallery-3.svg"
+    },
+    {
+      "title": "Десерты",
+      "image": "assets/images/placeholders/gallery-4.svg"
+    },
+    {
+      "title": "Посадочная зона",
+      "image": "assets/images/placeholders/gallery-5.svg"
+    },
+    {
+      "title": "Атмосфера",
+      "image": "assets/images/placeholders/gallery-6.svg"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Анна",
+      "text": "Очень красивое место. Тёмный интерьер, музыка, подача и вкус — всё собрано в единый стиль."
+    },
+    {
+      "name": "Максим",
+      "text": "Похоже не просто на кофейню, а на продуманный lifestyle-бренд. Кофе действительно сильный."
+    },
+    {
+      "name": "Elina",
+      "text": "Приходишь на полчаса, а остаёшься надолго. Атмосфера очень дорогая и спокойная."
+    }
+  ]
+}
